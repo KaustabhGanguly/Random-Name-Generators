@@ -2,18 +2,13 @@
 """
 Author : Kaustabh Ganguly
 
-10 th Ian , 2018 
+Copyright (c) 2018 Kaustabh Ganguly
 
-copyright : 2018
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-License : | OPEN SOURCE |
-          Author : Kaustabh Ganguly
-          linkedin.com/in/kaustabh
-          Anyone can use it , modify it , distribute it 
-          under the condition that it can't be used for
-          money making of any kind and a person or organization 
-          using it in a project of anykind should mention the 
-          license clearly with Author's name.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
           
 """
 
@@ -137,7 +132,8 @@ if inp <= MAX_A and num <= MAX_N :  # name limits , list limits
 else :
         raise  IOError("\n\nBE REALISTIC\n\n\n\nInput bound is : name must be greater than 1 alphabet and  max "+str(MAX_A)+" alphabets long and no. of name is max "+str(MAX_N)+" line long\n\nRerun the program\n")
 
-
+#if __name__ == "__main()__" :
+#    randomNameGenerator.run()
 
 
 
